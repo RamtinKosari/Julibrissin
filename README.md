@@ -21,12 +21,25 @@ A map of places where I've been finding Julibrissin trees
 		{
 			"type": "Feature",
 			"properties": {
-				"description": "Julibrissin tree in Mollasadra district, it is the most beautiful tree i have ever seen"
+				"description": " Mollasadra district, it is the most beautiful tree i have ever seen"
 			},
 			"geometry": {
 				"coordinates": [
 					50.02455020658746,
 					36.301339102135
+				],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"description": "Julibrissin tree in Adl Square"
+			},
+			"geometry": {
+				"coordinates": [
+					50.00672808813741,
+					36.27755382973881
 				],
 				"type": "Point"
 			}

@@ -20,13 +20,22 @@
 		<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 		<script>
 			var map = L.map('map').setView([36.3202, 50.0380], 15);
+			//-- Esri World Imagery Layer
 			// L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
 			// 	maxZoom: 25,
 			// 	attribution: '© Esri & contributors'
 			// }).addTo(map);
-			L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-				maxZoom: 19,
-				attribution: '&copy; OpenStreetMap contributors'
+			//-- Open Street Map Layer
+			// L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			// 	maxZoom: 19,
+			// 	attribution: '&copy; OpenStreetMap contributors'
+			// }).addTo(map);
+			//-- Mapbox Satellite Layer
+			L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/satellite-v9/tiles/{z}/{x}/{y}?access_token=YOUR_MAPBOX_ACCESS_TOKEN', {
+				tileSize: 512,
+				zoomOffset: -1,
+				attribution: '&copy; Mapbox & OpenStreetMap contributors',
+				maxZoom: 20
 			}).addTo(map);
 			fetch('map.geojson')
 				.then(response => response.json())

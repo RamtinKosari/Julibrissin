@@ -146,7 +146,46 @@ A map of places where I've been finding Julibrissin trees
 					36.30051896047064
 				],
 				"type": "Point"
-		}
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"description": "Julibrissin tree outside of Aseman Towers"
+			},
+			"geometry": {
+				"coordinates": [
+					50.006987731053016,
+					36.28375301765158
+				],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"description": "Julibrissin tree outside of Aseman Towers"
+			},
+			"geometry": {
+				"coordinates": [
+					50.00703574255627,
+					36.283853872398694
+				],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"description": "Julibrissin tree outside of Aseman Towers"
+			},
+			"geometry": {
+				"coordinates": [
+					50.00702378668316,
+					36.28372580387635
+				],
+				"type": "Point"
+			}
 		}
 	]
 }

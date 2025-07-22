@@ -8,8 +8,7 @@ A map of places where I've been finding Julibrissin trees
 		{
 			"type": "Feature",
 			"properties": {
-				"description": "Julibrissin tree in Qazvin Azad University, it is not a lush tree but it is still beautiful",
-				"marker-color": "#FF0000"
+				"description": "Julibrissin tree in Qazvin Azad University, it is not a lush tree but it is still beautiful"
 			},
 			"geometry": {
 				"coordinates": [
@@ -22,8 +21,7 @@ A map of places where I've been finding Julibrissin trees
 		{
 			"type": "Feature",
 			"properties": {
-				"description": "Julibrissin tree in Mollasadra district, it is the most beautiful tree i have ever seen",
-				"marker-color": "#FF0000"
+				"description": "Julibrissin tree in Mollasadra district, it is the most beautiful tree i have ever seen"
 			},
 			"geometry": {
 				"coordinates": [

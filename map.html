@@ -31,10 +31,15 @@
 			// 	attribution: '&copy; OpenStreetMap contributors'
 			// }).addTo(map);
 			//-- Mapbox Satellite Layer
-			L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/satellite-v9/tiles/{z}/{x}/{y}?access_token=YOUR_MAPBOX_ACCESS_TOKEN', {
-				tileSize: 512,
-				zoomOffset: -1,
-				attribution: '&copy; Mapbox & OpenStreetMap contributors',
+			// L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/satellite-v9/tiles/{z}/{x}/{y}?access_token=i dont have', {
+			// 	tileSize: 512,
+			// 	zoomOffset: -1,
+			// 	attribution: '&copy; Mapbox & OpenStreetMap contributors',
+			// 	maxZoom: 20
+			// }).addTo(map);
+			//-- Map Tiler Satellite Layer (i know i put my api key in the code, but i hope it won't be a problem, right ?)
+			L.tileLayer('https://api.maptiler.com/tiles/satellite/{z}/{x}/{y}.jpg?key=Cxl9EAPyAIcfQMREKgnY', {
+				attribution: '&copy; MapTiler & OpenStreetMap contributors',
 				maxZoom: 20
 			}).addTo(map);
 			fetch('map.geojson')

@@ -21,9 +21,13 @@
 		<script>
 			var map = L.map('map', { maxZoom: 19 }).setView([36.3202, 50.0380], 15);
 			L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-				maxZoom: 19,
+				maxZoom: 25,
 				attribution: '© Esri & contributors'
 			}).addTo(map);
+			// L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			// 	maxZoom: 19,
+			// 	attribution: '&copy; OpenStreetMap contributors'
+			// }).addTo(map);
 			fetch('map.geojson')
 				.then(response => response.json())
 				.then(data => {

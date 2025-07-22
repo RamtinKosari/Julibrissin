@@ -1,36 +1,26 @@
 # Julibrissin
 A map of places where I've been finding Julibrissin trees
 
-<!-- ```geojson
+```geojson
 {
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
-      "id": 1,
       "properties": {
-        "ID": 0
+        "name": "sss",
+        "description": "Julibrissin tree in Qazvin Azad University",
+        "marker-color": "#ff66cc"
       },
       "geometry": {
-        "type": "Polygon",
         "coordinates": [
-          [
-              [-90,35],
-              [-90,30],
-              [-85,30],
-              [-85,35],
-              [-90,35]
-          ]
-        ]
-      }
+          50.03800747633511,
+          36.320228581832325
+        ],
+        "type": "Point"
+      },
+      "id": 0
     }
   ]
 }
-``` -->
-
-<iframe
-  src="https://ramtinkosari.github.io/test-repo/map.html"
-  width="100%"
-  height="500"
-  frameborder="0"
-></iframe>
+```

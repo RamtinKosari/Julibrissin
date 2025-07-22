@@ -21,10 +21,10 @@
 		<script>
 			var map = L.map('map').setView([36.3202, 50.0380], 15);
 			//-- Esri World Imagery Layer
-			// L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-			// 	maxZoom: 25,
-			// 	attribution: '© Esri & contributors'
-			// }).addTo(map);
+			L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+				// maxZoom: 25,
+				attribution: '© Esri & contributors'
+			}).addTo(map);
 			//-- Open Street Map Layer
 			// L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 			// 	maxZoom: 19,
@@ -38,10 +38,10 @@
 			// 	maxZoom: 20
 			// }).addTo(map);
 			//-- Map Tiler Satellite Layer (i know i put my api key in the code, but i hope it won't be a problem, right ?)
-			L.tileLayer('https://api.maptiler.com/tiles/satellite/{z}/{x}/{y}.jpg?key=Cxl9EAPyAIcfQMREKgnY', {
-				attribution: '&copy; MapTiler & OpenStreetMap contributors',
-				maxZoom: 20
-			}).addTo(map);
+			// L.tileLayer('https://api.maptiler.com/tiles/satellite/{z}/{x}/{y}.jpg?key=Cxl9EAPyAIcfQMREKgnY', {
+			// 	attribution: '&copy; MapTiler & OpenStreetMap contributors',
+			// 	maxZoom: 20
+			// }).addTo(map);
 			fetch('map.geojson')
 				.then(response => response.json())
 				.then(data => {

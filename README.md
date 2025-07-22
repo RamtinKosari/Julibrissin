@@ -1,7 +1,7 @@
 # Julibrissin
 A map of places where I've been finding Julibrissin trees
 
-```geojson
+<!-- ```geojson
 {
 	"type": "FeatureCollection",
 	"features": [
@@ -32,5 +32,15 @@ A map of places where I've been finding Julibrissin trees
 			}
 		}
 	]
+}
+``` -->
+
+```geojson
+{
+  "type": "MultiPoint",
+  "coordinates": [
+    [50.03800747633511, 36.320228581832325],
+    [50.02455020658746, 36.301339102135]
+  ]
 }
 ```

@@ -203,3 +203,6 @@ A map of places where I've been finding Julibrissin trees
 	]
 }
 ```
+
+### Satellite View
+If you want to see satellite view of locations, open this [link](https://ramtinkosari.github.io/Julibrissin/map.html).

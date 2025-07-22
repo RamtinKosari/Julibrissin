@@ -186,6 +186,19 @@ A map of places where I've been finding Julibrissin trees
 				],
 				"type": "Point"
 			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"description": "Julibrissin tree in Hyedari district"
+			},
+			"geometry": {
+				"coordinates": [
+					50.001458479151125,
+					36.29148253627079
+				],
+				"type": "Point"
+			}
 		}
 	]
 }

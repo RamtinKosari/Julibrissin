@@ -108,6 +108,45 @@ A map of places where I've been finding Julibrissin trees
 				],
 				"type": "Point"
 			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"description": "Julibrissin tree in Arezoo Park"
+			},
+			"geometry": {
+				"coordinates": [
+					50.02584809450025,
+					36.298822269629696
+				],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"description": "Julibrissin tree in Arezoo Park"
+			},
+			"geometry": {
+				"coordinates": [
+					50.02400443109926,
+					36.30002748273593
+				],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"description": "Julibrissin tree in Arezoo Park"
+			},
+			"geometry": {
+				"coordinates": [
+					50.023200288871976,
+					36.30051896047064
+				],
+				"type": "Point"
+		}
 		}
 	]
 }

@@ -129,8 +129,8 @@ A map of places where I've been finding Julibrissin trees
 			},
 			"geometry": {
 				"coordinates": [
-					50.02400443109926,
-					36.30002748273593
+					50.02442443109926,
+					36.29969748273593
 				],
 				"type": "Point"
 			}
@@ -142,8 +142,8 @@ A map of places where I've been finding Julibrissin trees
 			},
 			"geometry": {
 				"coordinates": [
-					50.023200288871976,
-					36.30051896047064
+					50.02309088871976,
+					36.30057896047064
 				],
 				"type": "Point"
 			}

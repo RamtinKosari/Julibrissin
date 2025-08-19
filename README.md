@@ -1,6 +1,10 @@
 # Julibrissin
 A map of places where I've been finding Julibrissin trees
 
+<div align="center">
+  <img src="Images/Julibrissin.png" alt="This image is Taken by Me" width="73%"/>
+</div>
+
 ```geojson
 {
 	"type": "FeatureCollection",

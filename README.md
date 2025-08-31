@@ -25,6 +25,19 @@ A map of places where I've been finding Julibrissin trees
 		{
 			"type": "Feature",
 			"properties": {
+				"description": "Julibrissin tree in Talar Shahr, it is small tree"
+			},
+			"geometry": {
+				"coordinates": [
+					50.0447206604409,
+					36.31872764170649
+				],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"description": " Mollasadra district, it is the most beautiful tree i have ever seen"
 			},
 			"geometry": {
